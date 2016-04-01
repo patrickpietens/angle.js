@@ -1,5 +1,5 @@
 # toradians.js
-Converts degrees to radians and vice versa
+Simple function which converts degrees to radians
 
 ## Example
 ```javascript

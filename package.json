@@ -1,26 +1,30 @@
 {
-  "name": "anglejs",
+  "name": "angle.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Converts degrees to radians and vice versa",
   "main": "dist/angle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "NODE_ENV=development gulp",
+    "production": "NODE_ENV=production gulp"    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrickpietens/anglejs.git"
+    "url": "git+https://github.com/patrickpietens/angle.js.git"
   },
   "keywords": [
-    "data structures",
-    "structures",
-    "linkedlist"
+    "radians",
+    "degrees",
+    "conversion",
+    "js",
+    "javascript"
   ],
   "author": "Patrick Pietens <hello@patrickpietens.com> (http://patrickpietens.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patrickpietens/anglejs/issues"
+    "url": "https://github.com/patrickpietens/angle.js/issues"
   },
-  "homepage": "https://github.com/patrickpietens/anglejs#readme",
+  "homepage": "https://github.com/patrickpietens/angle.js#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "gulp": "^3.9.0",

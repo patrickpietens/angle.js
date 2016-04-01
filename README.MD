@@ -1,3 +1,27 @@
+# angle.js
+Converts degrees to radians and vice versa
+
+## Example
+```javascript
+import { radians2degrees, degrees2radians} from 'angle.js';
+
+let myDegrees, myRadians;
+
+myDegrees = 139;
+
+myRadians = degrees2radians(myDegrees);
+console.log(myRadians);
+
+myDegrees = radians2degrees(myRadians);
+console.log(myDegrees);
+```
+
+## Installation
+```bash
+$ npm install angle.js --save
+```
+
+## License
 The MIT License (MIT)
 
 Copyright (c) 2016 Patrick Pietens

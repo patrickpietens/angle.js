@@ -1,0 +1,1 @@
+!function(e,t){"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?module.exports=t():e.Angle=t()}(this,function(){"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.radians2degrees=function(e){return 180*e/Math.PI},exports.degrees2radians=function(e){return Math.PI/180*e};return select});

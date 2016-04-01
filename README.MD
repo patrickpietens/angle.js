@@ -6,7 +6,7 @@ Converts degrees to radians and vice versa
 import toRadians from 'toradians.js';
 
 let myDegrees = 139,
-    myRadians = degrees2radians(myDegrees);
+    myRadians = toRadians(myDegrees);
 
 console.log(myRadians);
 ```

@@ -1,16 +1,16 @@
 {
-  "name": "angle.js",
+  "name": "toradians.js",
   "version": "1.0.0",
-  "description": "Converts degrees to radians and vice versa",
-  "main": "dist/angle.js",
+  "description": "Simple function which converts degrees to radians",
+  "main": "dist/toradians.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "development": "NODE_ENV=development gulp",
-    "production": "NODE_ENV=production gulp"    
+    "production": "NODE_ENV=production gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrickpietens/angle.js.git"
+    "url": "git+https://github.com/patrickpietens/toradians.js.git"
   },
   "keywords": [
     "radians",
@@ -22,9 +22,9 @@
   "author": "Patrick Pietens <hello@patrickpietens.com> (http://patrickpietens.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patrickpietens/angle.js/issues"
+    "url": "https://github.com/patrickpietens/toradians.js/issues"
   },
-  "homepage": "https://github.com/patrickpietens/angle.js#readme",
+  "homepage": "https://github.com/patrickpietens/toradians.js#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "gulp": "^3.9.0",

@@ -16,12 +16,12 @@ function onError() {
 gulp.task('default', () => {
     let myProduction = process.env.NODE_ENV === 'production';
 
-    let mySource = 'src/angle.js',
+    let mySource = 'src/toradians.js',
         myDestination = 'dist';
 
     let myUmdOptions = {
         templateName: 'returnExports',
-        exports: (file) => 'select',
+        exports: (file) => 'toRadians',
     };
 
     let myBabelOptions = {

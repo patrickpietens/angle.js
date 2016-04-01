@@ -1,24 +1,19 @@
-# angle.js
+# toradians.js
 Converts degrees to radians and vice versa
 
 ## Example
 ```javascript
-import { radians2degrees, degrees2radians} from 'angle.js';
+import toRadians from 'toradians.js';
 
-let myDegrees, myRadians;
+let myDegrees = 139,
+    myRadians = degrees2radians(myDegrees);
 
-myDegrees = 139;
-
-myRadians = degrees2radians(myDegrees);
 console.log(myRadians);
-
-myDegrees = radians2degrees(myRadians);
-console.log(myDegrees);
 ```
 
 ## Installation
 ```bash
-$ npm install angle.js --save
+$ npm install toradians.js --save
 ```
 
 ## License
